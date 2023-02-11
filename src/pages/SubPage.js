@@ -1,5 +1,5 @@
-import Navbar from "../components/Navbar"
 import useTitle from "../hooks/useTitle"
+import parse from 'html-react-parser' 
 /**
  * @param {object} props
  * @param {string} props.title
@@ -14,28 +14,29 @@ export default function SubPage({title, coverImage, subImage, heading, texts, ..
     console.log(texts)
     return (
         <>
-            <Navbar />
-            <section className="hero is-medium header">
+            <section className="hero is-medium imaged-section header">
                 <div className="hero-body">
                     <div className="container">
-                        <p className="title has-text-centered has-text-white">{heading}</p>
+                        <p className="title has-text-centered has-text-white mb-5">{heading}</p>
                     </div>
                 </div>
             </section>
+            <img className="header-wave" src="wave.svg" alt=""/>
             <section className="section">
                 <div className="container">
                     <div className="columns is-vcentered">
                         <div className="column">
-                            <img src={subImage} alt={subImage}/>
+                            <img className="p-6" src={subImage} alt={subImage}/>
                         </div>
                         <div className="column" style={{ height: "100%" }}>
                             {texts.map(text => {
-                                return <p className="p-4">{text}</p>
+                                return <p className="p-4">{parse(text)}</p>
                             })}
                         </div>
                     </div>
                 </div>
             </section>
+            
         </>
     )
 }

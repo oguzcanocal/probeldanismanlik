@@ -9,7 +9,9 @@ html,body{
 }
 
 .header{
-    background: linear-gradient(-1deg, transparent 10%, $danger,10.5%, $danger 100%);
+    background: rgb(110,179,195);
+    background: linear-gradient(180deg, $success 0%, $primary 100% );
+    //background: linear-gradient(-1deg, transparent 10%, $danger,10.5%, $danger 100%);
 }
 
 .card{
@@ -18,8 +20,17 @@ html,body{
 }
 
 .imaged-section{
-    overflow: hidden;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.header-wave{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: -100px;
+    width: 100vw;
+    height: 100px;
 }

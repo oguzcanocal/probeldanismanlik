@@ -1,10 +1,8 @@
 import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 
-function Navbar() {
-
+function Navbar({subpages}) {
     const navbarDrawer = useRef();
-
     useEffect(() => {
         document.body.classList.add('has-navbar-fixed-top')
     },[])
@@ -14,7 +12,7 @@ function Navbar() {
     }
 
     return (
-        <nav className="navbar is-danger is-fixed-top " role="navigation" aria-label="main navigation">
+        <nav className="navbar is-success is-fixed-top " role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
                 <a className="navbar-item" href="https://probeldanismanlik.com">
                     <img className="pl-4" src="logo.svg" width="112" height="28" alt="Probel Web" />
@@ -30,50 +28,23 @@ function Navbar() {
             <div ref={navbarDrawer} id="navbar-drawer" className="navbar-menu">
                 <div className="navbar-end mr-6">
                     <div className="navbar-item has-dropdown is-hoverable">
-                        <a className="navbar-link">
+                        <p className="navbar-link">
                             Hizmetlerimiz
-                        </a>
+                        </p>
                         <hr className="navbar-divider"/>
                         <div className="navbar-dropdown">
-                            <Link to="isg-proje-yonetim-danismanligi" className="navbar-item">
-                                İSG Proje Yönetim Danışmanlığı
-                            </Link>
-                            <a className="navbar-item">
-                                İş Güvenliği Uzmanı Hizmeti
-                            </a>
-                            <a className="navbar-item">
-                                İş Yeri Hekimi Hizmeti
-                            </a>
-                            <a className="navbar-item">
-                                Diğer Sağlık Personeli Hizmeti
-                            </a>
-                            <a className="navbar-item">
-                                3. Göz Denetim
-                            </a>
-                            <a className="navbar-item">
-                                Periyodik Kontroller ve Ortam Ölçümü
-                            </a>
-                            <a className="navbar-item">
-                                Tahliye Projesi
-                            </a>
-                            <a className="navbar-item">
-                                Yangın Danışmanlığı
-                            </a>
-                            <a className="navbar-item">
-                                Çevre Danışmanlığı
-                            </a>
-                            <a className="navbar-item">
-                                Sivil Savuna Planı Hizmeti
-                            </a>
+                            {subpages.map(subpage=> {
+                                return <Link to={subpage.path} className="navbar-item">{subpage.title}</Link>
+                            })}
                         </div>
                     </div>
 
-                    <a className="navbar-item">
+                    <Link className="navbar-item">
                         Biz Kimiz?
-                    </a>
-                    <a className="navbar-item">
+                    </Link>
+                    <Link className="navbar-item">
                         İletişim
-                    </a>
+                    </Link>
 
                 </div>
 

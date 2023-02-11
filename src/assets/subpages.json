@@ -10,5 +10,21 @@
             "Osgb firmalarına” Kurumsal İsg Yönetim Danışmanlığı” sağlayarak tecrübe ve güçlerimizi birleştirip,kurum kültürüne özel tasarım, planlama, analiz, iyileştirme ve geliştirme stratejileri ile firmaya özel  “İSG Proje Yönetim Danışmanlığı” sağlıyoruz.",
             "Firmanızın İSG proje ekibi olarak “inovatif danışmanlık”  bakış açısıyla gelişme ve iyileştirme süreçlerinizde sizlerle omuz omuza çalışıyoruz."
         ]
+    },
+    {
+        "path":"/isg-is-guvenligi-uzmanligi",
+        "title":"İş Güvenliği Uzmanlığı Eğitimi",
+        "coverImage" : "isg-is-guvenligi-uzmanligi-min.jpg",
+        "subImage"   : "meeting.svg",
+        "heading": "İş Güvenliği Uzmanlığı Eğitimi",
+        "texts": [
+            "İş Sağlığı ve Güvenliği deyince akıllarda oluşan ilk kavram İş Güvenliği Uzmanıdır. Bu konuda 6331 Sayılı İş Sağlığı ve Güvenliği Kanunu’na göre, işverenden beklenen işyeri için bütün iş sağlığı ve güvenliği tedbirlerini almak, risk analizlerini yaptırmak, çalışanların eğitim ve bilgilendirmesini sağlamak gibi bir çok yükümlülüğün uygulanmasında iş güvenliği uzmanının nitelikli ve doğru bir operasyonla görevlendirilmesi gerekmektedir.",
+            "<strong>İlgili Yönetmeliğe göre, iş güvenliği uzmanı görevlendirme süreleri aşağıdaki gibidir;</strong>",
+            "Az tehlikeli – çalışan başına en az 10 dk,",
+            "Tehlikeli – çalışan başına en az 20 dk,",
+            "Çok Tehlikeli – çalışan başına en az 40 dk ",
+            "Hem kanunen gerekli bütün süreçleri yürütmek hem de çalışanlarınız ve sizin için güvenli çalışma ortamını sağlayabilmek adına  iş güvenliği uzmanı görevlendirilmelerinde bize ulaşabilirsiniz."
+
+        ]
     }
 ]

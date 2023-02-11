@@ -2,9 +2,9 @@
 function Header() {
     return (
         <>
-            <section className="hero is-halfheight header">
+            <section className="section hero is-halfheight header">
                 <div className="hero-body">
-                    <div className="container mx-6">
+                    <div className="container">
                         <div className="columns is-vcentered">
                        
                             <div className="column">
@@ -30,6 +30,7 @@ function Header() {
                     </div>
                 </div>
             </section>
+            <img className="header-wave" src="wave.svg" alt=""/>
         </>
     )
 }
