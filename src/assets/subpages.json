@@ -26,5 +26,23 @@
             "Hem kanunen gerekli bütün süreçleri yürütmek hem de çalışanlarınız ve sizin için güvenli çalışma ortamını sağlayabilmek adına  iş güvenliği uzmanı görevlendirilmelerinde bize ulaşabilirsiniz."
 
         ]
+    },
+    {
+        "path": "/is-yeri-hekimi",
+        "title": "İş Yeri Hekimi Hizmeti",
+        "coverImage" : "is-yeri-hekimi-min.jpg",
+        "subImage"   : "doctors.svg",
+        "heading": "İş Yeri Hekimi Hizmeti",
+        "texts":[
+            "Sağlık, herhangi bir sağlık problemi yaşayana dek unuttuğumuz bir durumdur. Sağlıklı olmanın önemini her zaman hatırlayamasakta vaktimizin büyük bir çoğunluğunu geçirdiğimiz işyerlerimizde sağlık çalışmaları yapılması önemlidir.",
+            "6331 Sayılı İş Sağlığı ve Güvenliği Kanunu’na göre de sağlık hizmetlerinin işyerlerinde uygulanması zorunludur.",
+            "<strong><a href='https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=18615&MevzuatTur=7&MevzuatTertip=5' target='blank'>İlgili Yönetmeliğe</a> göre, iş yeri hekimi görevlendirme süreleri aşağıdaki gibidir; </strong>",
+            "- Az tehlikeli – çalışan başına en az 5 dk,",
+            "- Tehlikeli – çalışan başına en az 10 dk,",
+            "- Çok Tehlikeli – çalışan başına en az 20 dk ",
+            "İşyerlerinde işyeri hekimi görevlendirmesi yapıldığında, çalışanlarınız işe girişlerde sağlık kontrollerinde, hastalıklarında, almaları gereken ilaçlarında, danışmanları gereken sağlık konularında, sürekli yanlarında olan bir hekimden destek almış olurlar.",
+            "Hem kanunen gerekli bütün süreçleri yürütmek hem de çalışanlarınız ve sizin için güvenli çalışma ortamını sağlayabilmek adına  iş yeri hekimliği görevlendirilmelerinde bize ulaşabilirsiniz."
+        ]
     }
+
 ]

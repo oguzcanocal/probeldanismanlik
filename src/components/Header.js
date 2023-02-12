@@ -21,11 +21,9 @@ function Header() {
                             </div>
 
                             <div className="column">
-                      
-                                <img className="pt-4" src="security.svg" alt="placeholder" />
-                    
-
+                                <img className="right-slider pt-4" src="security.svg" alt="placeholder" />
                             </div>
+                            
                         </div>
                     </div>
                 </div>

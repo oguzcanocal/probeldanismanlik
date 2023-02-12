@@ -1,5 +1,7 @@
 import useTitle from "../hooks/useTitle"
-import parse from 'html-react-parser' 
+import parse from 'html-react-parser'
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 /**
  * @param {object} props
  * @param {string} props.title
@@ -14,29 +16,31 @@ export default function SubPage({title, coverImage, subImage, heading, texts, ..
     console.log(texts)
     return (
         <>
-            <section className="hero is-medium imaged-section header">
+            <Navbar/>
+            <section className="hero is-medium header subpage">
+                <img className="subpage-header-bg" src={coverImage} alt=""/>
                 <div className="hero-body">
                     <div className="container">
                         <p className="title has-text-centered has-text-white mb-5">{heading}</p>
                     </div>
                 </div>
             </section>
-            <img className="header-wave" src="wave.svg" alt=""/>
+            
             <section className="section">
                 <div className="container">
                     <div className="columns is-vcentered">
                         <div className="column">
-                            <img className="p-6" src={subImage} alt={subImage}/>
+                            <img className="p-6 left-slider" src={subImage} alt={subImage}/>
                         </div>
                         <div className="column" style={{ height: "100%" }}>
-                            {texts.map(text => {
-                                return <p className="p-4">{parse(text)}</p>
+                            {texts.map((text,index) => {
+                                return <p key={index} className="p-4">{parse(text)}</p>
                             })}
                         </div>
                     </div>
                 </div>
             </section>
-            
+            <Footer/>
         </>
     )
 }

@@ -1,7 +1,8 @@
 import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import subpages from "../assets/subpages.json"
 
-function Navbar({subpages}) {
+function Navbar() {
     const navbarDrawer = useRef();
     useEffect(() => {
         document.body.classList.add('has-navbar-fixed-top')
@@ -14,15 +15,15 @@ function Navbar({subpages}) {
     return (
         <nav className="navbar is-success is-fixed-top " role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
-                <a className="navbar-item" href="https://probeldanismanlik.com">
+                <Link className="navbar-item" to="/">
                     <img className="pl-4" src="logo.svg" width="112" height="28" alt="Probel Web" />
-                </a>
+                </Link>
 
-                <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-drawer" onClick={toggleMenu}>
+                <p role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-drawer" onClick={toggleMenu}>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
-                </a>
+                </p>
             </div>
 
             <div ref={navbarDrawer} id="navbar-drawer" className="navbar-menu">
