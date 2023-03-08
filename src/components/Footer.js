@@ -20,6 +20,8 @@ export default function Footer() {
                                 <hr className="my-1"/>
                                 <p className="has-text-weight-bold my-1">Telefon</p>
                                 <p>	0216 574 73 74</p>
+                                <p className="has-text-weight-bold my-1">E-Posta</p>
+                                <p> iletisim@probeldanismanlik.com</p>
                             </div>
 
                         </div>

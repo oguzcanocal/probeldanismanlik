@@ -1,48 +1,140 @@
 [
     {
-        "path": "/isg-proje-yonetim-danismanligi",
-        "title": "İSG Proje Yönetim Danışmanlığı",
-        "coverImage" : "isg-proje-yonetim-min.jpg",
+        "path":"/isg-egitimleri",
+        "title":"İş Sağlığı Güvenliği Eğitimleri",
+        "coverImage" : "isg-is-guvenligi-min.jpg",
         "subImage"   : "meeting.svg",
-        "heading"    : "İSG Proje Yönetim Danışmanlığı",
-        "texts"      : [
-            "Probel ekibi olarak, sahadaki tecrübelerimizle yasal süreçlerin takip edilebilir bir  sistem haline getirilmesi hedefiyle her firmanın farklı bir proje olarak yönetilmesi gerektiğine inanıyoruz.",
-            "Osgb firmalarına” Kurumsal İsg Yönetim Danışmanlığı” sağlayarak tecrübe ve güçlerimizi birleştirip,kurum kültürüne özel tasarım, planlama, analiz, iyileştirme ve geliştirme stratejileri ile firmaya özel  “İSG Proje Yönetim Danışmanlığı” sağlıyoruz.",
-            "Firmanızın İSG proje ekibi olarak “inovatif danışmanlık”  bakış açısıyla gelişme ve iyileştirme süreçlerinizde sizlerle omuz omuza çalışıyoruz."
-        ]
-    },
-    {
-        "path":"/isg-is-guvenligi-uzmanligi",
-        "title":"İş Güvenliği Uzmanlığı Eğitimi",
-        "coverImage" : "isg-is-guvenligi-uzmanligi-min.jpg",
-        "subImage"   : "meeting.svg",
-        "heading": "İş Güvenliği Uzmanlığı Eğitimi",
+        "heading": "İş Sağlığı ve Güvenliği Eğitimleri",
         "texts": [
-            "İş Sağlığı ve Güvenliği deyince akıllarda oluşan ilk kavram İş Güvenliği Uzmanıdır. Bu konuda 6331 Sayılı İş Sağlığı ve Güvenliği Kanunu’na göre, işverenden beklenen işyeri için bütün iş sağlığı ve güvenliği tedbirlerini almak, risk analizlerini yaptırmak, çalışanların eğitim ve bilgilendirmesini sağlamak gibi bir çok yükümlülüğün uygulanmasında iş güvenliği uzmanının nitelikli ve doğru bir operasyonla görevlendirilmesi gerekmektedir.",
-            "<strong>İlgili Yönetmeliğe göre, iş güvenliği uzmanı görevlendirme süreleri aşağıdaki gibidir;</strong>",
-            "Az tehlikeli – çalışan başına en az 10 dk,",
-            "Tehlikeli – çalışan başına en az 20 dk,",
-            "Çok Tehlikeli – çalışan başına en az 40 dk ",
-            "Hem kanunen gerekli bütün süreçleri yürütmek hem de çalışanlarınız ve sizin için güvenli çalışma ortamını sağlayabilmek adına  iş güvenliği uzmanı görevlendirilmelerinde bize ulaşabilirsiniz."
+            "İş Sağlığı Güvenliği Eğitimleri: 6331 Sayılı İş Sağlığı ve Güvenliği Kanunu  25426 sayılı Çalışanların İş Sağlığı ve Güvenliği Eğitimlerinin Usul ve Esasları Hakkında Yönetmelik hükümleri kapsamında tüm işverenler çalışanlarına sertifikalı iş sağlığı ve güvenliği eğitimi verdirmek zorundadır.",
+            "<strong>Çalışanlara Temel İSG Eğitimleri</strong>",
+            "<strong>A)</strong> Çok tehlikeli sınıfta yer alan işyerlerinde yılda en az bir defa ve 16 saat",
+            "<strong>B)</strong> Tehlikeli sınıfta yer alan işyerlerinde 2 yılda en az bir defa ve 12 saat",
+            "<strong>C)</strong> Az tehlikeli sınıfta yer alan işyerlerinde 3 yılda en az bir defa ve 8 saat",
+            "olarak düzenlenir",
+            "Çalışanların İş Sağlığı ve Güvenliği Eğitimlerinin Usul ve Esasları Hakkında Yönetmeliği Madde 11 — Çalışanlara verilecek eğitim, işyerinin faaliyet alanına göre aşağıdaki ve benzeri konulardan seçilir;",
+            "- Genel is sağlığı ve güvenliği kuralları", 
+            "- İş ekipmanlarının güvenli kullanımı",
+            "- Kaza, yaralanma ve hastalıktan korunma prensipleri ve korunma tekniklerinin uygulanması",
+            "- Calışanların yasal hak ve sorumlulukları",
+            "- Yasal mevzuat ile ilgili bilgiler",
+            "- İşyerinde güvenli ortam ve sistemleri kurma",
+            "- Kişisel koruyucu alet kullanımı",
+            "- Ekranlı ekipmanlarla çalışma",
+            "- Uyarı işaretleri",
+            "- Kimyasal, fiziksel ve biyolojik maddelerle ortaya çıkan riskler",
+            "- Temizlik ve düzen",
+            "- Yangın olayı ve yangından korunma",
+            "- Termal konfor şartları",
+            "- Ergonomi",
+            "- Elektrik tehlikeleri, riskleri ve önlemleri",
+            "- İlk yardım, kurtarma"
 
         ]
     },
     {
-        "path": "/is-yeri-hekimi",
-        "title": "İş Yeri Hekimi Hizmeti",
-        "coverImage" : "is-yeri-hekimi-min.jpg",
-        "subImage"   : "doctors.svg",
-        "heading": "İş Yeri Hekimi Hizmeti",
+        "path": "/yuksekte-calisma",
+        "title": "Yüksekte Çalışma",
+        "coverImage" : "yuksekte-calisma-min.jpg",
+        "subImage"   : "yuksek.svg",
+        "heading": "Yüksekte Çalışma Eğitimi",
         "texts":[
-            "Sağlık, herhangi bir sağlık problemi yaşayana dek unuttuğumuz bir durumdur. Sağlıklı olmanın önemini her zaman hatırlayamasakta vaktimizin büyük bir çoğunluğunu geçirdiğimiz işyerlerimizde sağlık çalışmaları yapılması önemlidir.",
-            "6331 Sayılı İş Sağlığı ve Güvenliği Kanunu’na göre de sağlık hizmetlerinin işyerlerinde uygulanması zorunludur.",
-            "<strong><a href='https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=18615&MevzuatTur=7&MevzuatTertip=5' target='blank'>İlgili Yönetmeliğe</a> göre, iş yeri hekimi görevlendirme süreleri aşağıdaki gibidir; </strong>",
-            "- Az tehlikeli – çalışan başına en az 5 dk,",
-            "- Tehlikeli – çalışan başına en az 10 dk,",
-            "- Çok Tehlikeli – çalışan başına en az 20 dk ",
-            "İşyerlerinde işyeri hekimi görevlendirmesi yapıldığında, çalışanlarınız işe girişlerde sağlık kontrollerinde, hastalıklarında, almaları gereken ilaçlarında, danışmanları gereken sağlık konularında, sürekli yanlarında olan bir hekimden destek almış olurlar.",
-            "Hem kanunen gerekli bütün süreçleri yürütmek hem de çalışanlarınız ve sizin için güvenli çalışma ortamını sağlayabilmek adına  iş yeri hekimliği görevlendirilmelerinde bize ulaşabilirsiniz."
+            "6331 sayılı İş Sağlığı ve Güvenliği Kanunu’nun 17. maddesine ve 15.05.2013 tarih ve 28648 sayılı Resmi Gazetede yayımlanarak yürürlüğe giren Çalışanların İş Sağlığı ve Güvenliği Eğitimlerinin Usul ve Esasları Hakkında Yönetmeliği’nin 5. maddesine göre; işverenler, çalışanların iş sağlığı ve güvenliği eğitimlerini almasını sağlamakla yükümlüdür. Ayrıca 25786 sayılı yapı işlerinde iş sağlığı ve güvenliği yönetmeliği ve 28695 sayılı kişisel koruyucu donanımların (KKD) işyerlerinde kullanılması hakkında yönetmelik gereği de bu eğitimin alınması zorunludur.",
+            "<strong>Yüksekte Çalışma Eğitim İçeriği:</strong>",
+            " - Yüksekte güvenli çalışmanın yasal dayanakları",
+            " - Düşme durdurma sistemleri",
+            " - Emniyet alma kuralları (ankrajlama)",
+            " - Toplu korunma uygulamaları ve kişisel koruyucu donanımlar",
+            " - Kişisel koruyucu donanımların kontrol ve bakımı",
+            " - Merdiven, iskele ve platformlarda güvenli çalışma uygulamaları",
+            " - Sık kullanılan düğüm çeşitleri",
+            " - Askıda kalma şoku ve süresi",
+            " - Askıda kalan kişiyi kurtarma yöntemleri"
         ]
+    },
+    {
+        "path": "/acil-durum-ve-afat-egitimleri",
+        "title": "Acil Durum ve Afat Eğitimleri",
+        "coverImage" : "acil-durum-min.jpg",
+        "subImage"   : "teach.svg",
+        "heading": "Acil Durum ve Afat Eğitimleri",
+        "texts":[
+            "Çalışma ve Sosyal Güvenlik Bakanlığı tarafından 30.06.2012 tarihli 28339 sayılı Resmi Gazetede yayınlanan 6331 sayılı İş sağlığı ve Güvenliği Kanunun 11 inci maddesinin (1) c bendinde Acil durumlarla mücadele için işyerinin büyüklüğü ve taşıdığı özel tehlikeler, yapılan işin niteliği, çalışan sayısı ile işyerinde bulunan diğer kişileri dikkate alarak; önleme, koruma, tahliye, yangınla mücadele, ilk yardım ve benzeri konularda uygun donanıma sahip ve bu konularda eğitimli yeterli sayıda kişiyi görevlendirir, araç ve gereçleri sağlayarak eğitim ve tatbikatları yaptırır ve ekiplerin her zaman hazır bulunmalarını sağlar.",
+            "Ayrıca 19.12.2007 tarihli 26735 sayılı Resmi Gazetede yayınlanan “Binaların Yangında Korunması Hakkında Yönetmelik” ve Bakanlar Kurulu’nun 10.08.2009 gün ve 2009/15316 sayılı kararı ile Resmi Gazete’nin 09.09.2009 gün ve 27344 sayılı sayısında yayınlanan “Binaların Yangında Korunması Hakkında Yönetmelik” işletmelerin Yangın Güvenliği Ekipleri oluşturarak, bunlara gerekli yangın eğitimi ve uygulamalı yangın tatbikatlarının senede en az 1 kez yapılacağını zorunlu kılmaktadır.",
+            "Tüm işletmeler çok tehlikeli sınıfta yer alan işyerlerinde 30 çalışana, tehlikeli sınıfta yer alan işyerlerinde 40 çalışana ve az tehlikeli sınıfta yer alan işyerlerinde 50 çalışana kadar;",
+            " - Arama, kurtarma ve tahliye,",
+            " - Yangınla mücadele, ",
+            "konularının her biri için uygun donanıma sahip ve özel eğitimli en az birer çalışanı destek elemanı olarak görevlendirir. İşyerinde bunları aşan sayılarda çalışanın bulunması halinde, tehlike sınıfına göre her 30, 40 ve 50’ye kadar çalışan için birer destek elemanı daha görevlendirilmelidir." 
+        ]
+    },
+    {
+        "path": "/ilk-yardim-egitimleri",
+        "title": "İlk Yardım Eğitimleri",
+        "coverImage" : "ilkyardim-min.jpg",
+        "subImage"   : "doctors.svg",
+        "heading": "İlk Yardım Eğitimleri",
+        "texts":[
+            "<strong>Eğitimin Amacı:</strong>",
+            "Acil bir durum karşısında profesyonel ekipler gelene kadar, yanlış müdahalelerden kaçınarak hasta/yaralıya hızlı, etkin ve en uygun müdahalede bulunmak için gerekli bilgi ve beceriyi kazandırmaktır.",
+            "<strong>Yeterlilik:</strong> En az ilkokul mezunu ve 18 yaşını doldurmuş her vatandaş ilk yardım sertifikası alabilir. İlk yardım sertifikası almak için ilk yardım eğitim merkezine başvuru yapan kişiler; eğitim süresinin tamamına devam etmek zorundadır. Eğitim sonunda katılımcıların başarılı sayılmaları için, teorik ve uygulamalı sınavlardan ayrı ayrı 100 tam puan üzerinden asgari 85 puan almış olmaları şartı aranır.",
+            "<strong>Eğitim Süresi:</strong> 2 Gün - 16 Saat",
+            "<strong>Katılımcı Sayısı:</strong> En az 7, en fazla 20",
+            "<strong>Eğitim Konuları:</strong>",
+            " - Genel ilk yardım bilgileri",
+            " - Hasta / yaralının ve olay yerinin değerlendirilmesi",
+            " - Temel yaşam desteği",
+            " - Kanamalarda ilk yardım",
+            " - Yaralanmalarda ilk yardım",
+            " - Yanık, donma ve sıcak çarpmasında ilk yardım",
+            " - Kırık, çıkık ve burkulmalarda ilk yardım",
+            " - Bilinç bozukluklarında ilk yardım",
+            " - Zehirlenmelerde ilk yardım",
+            " - Hayvan ısırmalarında ilk yardım",
+            " - Boğulmalarda temel yaklaşım",
+            " - Göz, kulak ve buruna yabancı cisim karmasında ilk yardım",
+            " - Hasta / yaralı taşıma teknikleri"
+        ]
+    },
+    {
+        "path": "/hijyen-egitimi",
+        "title": "Hijyen Eğitimi",
+        "coverImage" : "hijyen-min.jpg",
+        "subImage"   : "hijyen.svg",
+        "heading": "Hijyen Eğitimi",
+        "texts":[
+            "Temel Hijyen Eğitimleri, Başta işyeri yemekhaneleri, restoranlar ve diğer benzeri gıda hizmetlerinin sunulduğu yerler olmak üzere, konaklama hizmeti veren, gıda üretimi yapan işyerleri ve insan bedenine temasın söz konusu olduğu temizlik hizmetlerinin verildiği iş yerlerinde çalışanlarının hijyen eğitimi almaları gerekmektedir.",
+            "Hijyen eğitimi insan bedenine zarar verebilecek her ortama karşı katılımcıları bilinçlendirecek bir eğitimdir.Hijyen eğitimi belgesi ise bu eğitimlerden sonra katılımcılara verilir.",
+            "<strong>Hangi sektörler hijyen eğitimi almak zorundadır?</strong>",
+            " - Gıda üretim ve perakende iş yerleri",
+            " - Otel, motel, pansiyon ve misafirhane gibi yerler",
+            " - İnsan bedenine temasın söz konusu olduğu temizlik hizmetlerinin verildiği iş yerleri",
+            " - Komisyon tarafından hijjyen eğitimi verilmesi uygun görülen diğer iş kolları",
+            " - İnsani tüketim amaçlı sular ile doğal mineralli suların üretimini yapan iş yerleri",
+            " - Kaplıca, hamam, sauna, berber, kuaför, dövme, piercing yapılan yerler, masaj ve güzellik salonları ve benzer yerler"
+        ]
+    },
+    {
+        "path": "",
+        "title": "Mesleki Eğitim"
+    },
+    {
+        "path": "",
+        "title": "Ergonomi Eğitimi"
+    },
+    {
+        "path": "",
+        "title": "Liderlik Eğitimi"
+    },
+    {
+        "path": "",
+        "title": "Etkili İletişim Eğitimleri"
+    },
+    {
+        "path": "",
+        "title": "Kriz Yönetimi ve Afad Psikolojisi Eğitimi"
+    },
+    {
+        "path": "",
+        "title": "Ebevenler İçin İlk Yardım Eğitimi"
     }
-
 ]

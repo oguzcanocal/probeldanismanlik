@@ -28,13 +28,13 @@ export default function SubPage({title, coverImage, subImage, heading, texts, ..
             
             <section className="section">
                 <div className="container">
-                    <div className="columns is-vcentered">
+                    <div className="columns">
                         <div className="column">
                             <img className="p-6 left-slider" src={subImage} alt={subImage}/>
                         </div>
                         <div className="column" style={{ height: "100%" }}>
                             {texts.map((text,index) => {
-                                return <p key={index} className="p-4">{parse(text)}</p>
+                                return <p key={index} className="p-3">{parse(text)}</p>
                             })}
                         </div>
                     </div>

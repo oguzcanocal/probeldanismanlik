@@ -14,7 +14,7 @@ function Header() {
 
                                     <div className="buttons is-centered mt-6">
                                         
-                                        <a className="button is-light is-medium is-rounded is-outlined has-text-weight-bold px-6">Bize Ulaşın</a>
+                                        <a href="mailto:iletisim@probeldanismanlik.com" className="button is-light is-medium is-rounded is-outlined has-text-weight-bold px-6">Bize Ulaşın</a>
                                     </div>
                                 
                                 </div>
