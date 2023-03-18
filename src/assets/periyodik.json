@@ -1,0 +1,24 @@
+[
+    {
+        "path":"/periyodik-kontrol",
+        "title":"Periyodik Kontrol",
+        "coverImage" : "periyodik-kontrol-min.jpg",
+        "subImage"   : "meeting.svg",
+        "heading": "Periyodik Kontrol",
+        "texts": [
+            "İşyerlerimizde birçok ekipman kullanırız. Bu ekipmanların güvenli hale getirilmesi, gerekli bakımlarının yapılması ve kanunen belirli sürelerde tekrarlanması işverenin yükümlülüğündedir.",
+            "Periyodik kontrol ile periyodik bakım sürekli karıştırılan iki ayrı kavramdır. Ekipmanları temin ettiğiniz kuruluş tarafından belirli sürelerde bakım ve kontrollerinin yapılması iş ekipmanları yönetmeliğinde istenen periyodik kontrol standartlarına girmemektedir. ",
+            "Periyodik kontroller , yönetmelikte belirlenen şartlar ve sürelerde, akredite kuruluşlar tarafından tamamlanmalı ve rapor haline getirilmelidir.",
+            "Periyodik Kontrol Gerektirecek Bazı İş Ekipmanları  ve Tesisatlar:",
+            " - Elektrik panoları, tesisatı",
+            " - Topraklama tesisatı",
+            " - Havalandırma tesisatı",
+            " - Kompresörler",
+            " - Transpaletler",
+            " - Yük asansörleri",
+            " - İskeleler",
+            " - Yangın algılama sistemleri",
+            " - Yangın söndürme cihazları"
+        ]
+    }
+]

@@ -33,8 +33,8 @@ export default function SubPage({title, coverImage, subImage, heading, texts, ..
                             <img className="p-6 left-slider" src={subImage} alt={subImage}/>
                         </div>
                         <div className="column" style={{ height: "100%" }}>
-                            {texts.map((text,index) => {
-                                return <p key={index} className="p-3">{parse(text)}</p>
+                            {texts.map( text => {
+                                return <p key={text} className="p-3">{parse(text)}</p>
                             })}
                         </div>
                     </div>

@@ -6,13 +6,13 @@ export default function CardGroup() {
             <div className="container has-text-centered">
                 <div className="columns is-multiline">
                     <div className="column">
-                        <Card title="Test Title" message={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris."} />
+                        <Card title="Önceliğimiz İnsan" message={"Probel Mühendislik, verilen tüm hizmetlerin odağında insan sağlığı ve insani değerleri önde tutularak hizmet verir."} />
                     </div>
                     <div className="column">
-                        <Card title="Test Title" message={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris."} />
+                        <Card title="Çok Yönlü Güven" message={"Probel Mühendislik ilk kurulduğu günden bu yana hizmet verdiği firmalar ile danışmanlıktan çok firma bünyesinde hizmet anlayışı ile çok yönlü güven duygusuyla çalışır."} />
                     </div>
                     <div className="column">
-                        <Card title="Test Title" message={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris."} />
+                        <Card title="Sürdürülebilirlik" message={"Probel Mühendislik yapılan her çalışmanın devamlığı, takip edilebilirliği ve uygulanabilirliğini değerlenidirerek çalışır."} />
                     </div>
                 </div>
             </div>

@@ -2,14 +2,18 @@ import './styles/main.scss'
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import SubPage from './pages/SubPage';
-import SubPageContents from "./assets/subpages.json"
+import egitimler from "./assets/egitimler.json"
+import periyodik from "./assets/periyodik.json"
 function App() {
-  console.log(SubPageContents)
+
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<Home/>}/>
-        {SubPageContents.map( subpage => {
+        {egitimler.map( subpage => {
+           return <Route path={subpage.path} element={<SubPage {...subpage} />} />
+        })}
+        {periyodik.map( subpage => {
            return <Route path={subpage.path} element={<SubPage {...subpage} />} />
         })}
       </Routes>

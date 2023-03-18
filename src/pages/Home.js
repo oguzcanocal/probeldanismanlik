@@ -10,6 +10,14 @@ export default function Home() {
             <Navbar/>
             <Header/>
             <CardGroup/>
+            <section className="section my-6">
+                <div className="container">
+                    <h2 className="title has-text-centered has-text-weight-bold card-title">Hedeflerimiz</h2>
+                    <p className=" has-text-centered is-size-4">
+                    Probel Mühendislik hizmet çercevesi içeriside yer alan tüm faaliyetleri ile birlikte 5 yılı aşkın süredir insan, güven ve sürdürülebilirlik odağı altında müşterilerin tüm entegre hizmetlerini tek bir başlık aktında toplayıp hizmet vermektedir. Bu hizmetleri sürekli geliştirerek ilk günki güven duygusuyla birlikte müşteri menmuniyeyini sağlamak.
+                    </p>
+                </div>
+            </section>
             <Footer/>
         </>
     )

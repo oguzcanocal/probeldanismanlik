@@ -1,15 +1,21 @@
 import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import subpages from "../assets/subpages.json"
-
+import egitimler from "../assets/egitimler.json"
+import periyodik from "../assets/periyodik.json"
 function Navbar() {
     const navbarDrawer = useRef();
     useEffect(() => {
         document.body.classList.add('has-navbar-fixed-top')
     },[])
+
     const toggleMenu = (event) => {
         navbarDrawer.current.classList.toggle('is-active')
         event.currentTarget.classList.toggle('is-active')
+    }
+
+    const handleLinkClick = (event) => {
+        let dropdowns = document.getElementsByName("dropdown")
+        dropdowns.map( d => d.classList.remove("is-active"))
     }
 
     return (
@@ -28,24 +34,26 @@ function Navbar() {
 
             <div ref={navbarDrawer} id="navbar-drawer" className="navbar-menu">
                 <div className="navbar-end mr-6">
-                    <div className="navbar-item has-dropdown is-hoverable">
-                        <p className="navbar-link">
-                            Hizmetlerimiz
-                        </p>
-                        <hr className="navbar-divider"/>
+                    <div name="dropdown" className="navbar-item has-dropdown is-hoverable">
+                        <p className="navbar-link">Eğitimlerimiz</p>
                         <div className="navbar-dropdown">
-                            {subpages.map(subpage=> {
-                                return <Link to={subpage.path} className="navbar-item">{subpage.title}</Link>
+                            {egitimler.map( subpage=> {
+                                return subpage.path == "" ?
+                                 <p className="navbar-item">{subpage.title}</p>
+                                 : 
+                                 <Link onClick={handleLinkClick} key={subpage.path} to={subpage.path} className="navbar-item">{subpage.title}</Link>
                             })}
                         </div>
                     </div>
 
-                    <Link className="navbar-item">
-                        Biz Kimiz?
-                    </Link>
-                    <Link className="navbar-item">
-                        İletişim
-                    </Link>
+                    <div name="dropdown" className="navbar-item has-dropdown is-hoverable">
+                        <p className="navbar-link">Periyodik Muayene ve Ortam Ölçümü</p>
+                        <div className="navbar-dropdown">
+                            {periyodik.map( subpage=> {
+                                return <Link onClick={handleLinkClick} key={subpage.path} to={subpage.path} className="navbar-item">{subpage.title}</Link>
+                            })}
+                        </div>
+                    </div>
 
                 </div>
 
