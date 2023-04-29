@@ -3,7 +3,7 @@
         "path":"/periyodik-kontrol",
         "title":"Periyodik Kontrol",
         "coverImage" : "periyodik-kontrol-min.jpg",
-        "subImage"   : "meeting.svg",
+        "subImage"   : "periyodik-kontrol.svg",
         "heading": "Periyodik Kontrol",
         "texts": [
             "İşyerlerimizde birçok ekipman kullanırız. Bu ekipmanların güvenli hale getirilmesi, gerekli bakımlarının yapılması ve kanunen belirli sürelerde tekrarlanması işverenin yükümlülüğündedir.",
@@ -19,6 +19,24 @@
             " - İskeleler",
             " - Yangın algılama sistemleri",
             " - Yangın söndürme cihazları"
+        ]
+    },
+    {
+        "path":"/ortam-olcum",
+        "title":"Ortam Ölçümü",
+        "coverImage" : "periyodik-kontrol-min.jpg",
+        "subImage"   : "ortam-olcumu.svg",
+        "heading": "Ortam Ölçümü",
+        "texts": [
+            "Çalıştığımız ortamlarda aydınlatma, havalandırma , sıcaklık, gürültü gibi birçok fiziksel risk etmeni bulunur. Bu etmenlerin çalışanlar için uygun olduğunun anlaşılması ve uygunsuzluklarda önlem alınması konusu işverenlerin sorumluluğundadır. ",
+            "Bu nedenle, çalıştığımız ortamlarda bulunan fiziki şartlara göre belirenen parametrelerde ortam ölçümlerini tamamlamamız gerekmektedir.",
+            "Gerekli Bazı Ortam Ölçümleri :",
+            " - Toz Ölçümü",
+            " - Aydınlatma Ölçümü",
+            " - Havalandırma tesisatı",
+            " - Gürültü Ölçümü",
+            " - Termal Konfor",
+            " - Titreşim ölçümü "
         ]
     }
 ]

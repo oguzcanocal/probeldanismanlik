@@ -11,11 +11,6 @@ function Header() {
                                 <div style={{maxWidth: "400px", margin: "auto auto"}}>
                                     <p className="title has-text-white has-text-centered">Güvenli Yarınlara</p>
                                     <p className="subtitle has-text-white has-text-centered">Hayatı kolaylaştıran ve geliştiren projeler tasarlarken, inovatif bir proje yönetimini sağlamak için, Biz buradayız!</p>
-
-                                    <div className="buttons is-centered mt-6">
-                                        
-                                        <a href="mailto:iletisim@probeldanismanlik.com" className="button is-light is-medium is-rounded is-outlined has-text-weight-bold px-6">Bize Ulaşın</a>
-                                    </div>
                                 
                                 </div>
                             </div>

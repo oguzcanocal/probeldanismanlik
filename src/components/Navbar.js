@@ -2,6 +2,9 @@ import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import egitimler from "../assets/egitimler.json"
 import periyodik from "../assets/periyodik.json"
+import issagligi from   "../assets/is_sagligi.json"
+import sgk from "../assets/sgk.json"
+
 function Navbar() {
     const navbarDrawer = useRef();
     useEffect(() => {
@@ -50,6 +53,23 @@ function Navbar() {
                         <p className="navbar-link">Periyodik Muayene ve Ortam Ölçümü</p>
                         <div className="navbar-dropdown">
                             {periyodik.map( subpage=> {
+                                return <Link onClick={handleLinkClick} key={subpage.path} to={subpage.path} className="navbar-item">{subpage.title}</Link>
+                            })}
+                        </div>
+                    </div>
+
+                    <div name="dropdown" className="navbar-item has-dropdown is-hoverable">
+                        <p className="navbar-link">İş Sağlığı ve Güvenliği</p>
+                        <div className="navbar-dropdown">
+                            {issagligi.map( subpage=> {
+                                return <Link onClick={handleLinkClick} key={subpage.path} to={subpage.path} className="navbar-item">{subpage.title}</Link>
+                            })}
+                        </div>
+                    </div>
+                    <div name="dropdown" className="navbar-item has-dropdown is-hoverable">
+                        <p className="navbar-link">SGK İstihdam Teşviki</p>
+                        <div className="navbar-dropdown">
+                            {sgk.map( subpage=> {
                                 return <Link onClick={handleLinkClick} key={subpage.path} to={subpage.path} className="navbar-item">{subpage.title}</Link>
                             })}
                         </div>

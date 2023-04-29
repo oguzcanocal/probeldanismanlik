@@ -114,27 +114,93 @@
         ]
     },
     {
-        "path": "",
-        "title": "Mesleki Eğitim"
+        "path": "/mesleki-egitim",
+        "title": "Mesleki Eğitim",
+        "coverImage" : "hijyen-min.jpg",
+        "subImage"   : "mesleki_egitim.svg",
+        "heading": "Mesleki Eğitim",
+        "texts":[
+            "6331 sayılı İş Sağlığı ve Güvenliği Kanununa göre, işveren, çalışanları için mesleki riskleri önlemek ve yappılan işlere özel eğitimler planlamakla yükümlüdür. ",
+            "İşyerlerinizde geçirilen kazalarda veya meslek hastalıklarında çalışanların kaza veya hastalığa sebep olacak etkenlere yönelik özel eğitim alıp almadığı da sorgulanır.",
+            "Bir çok farklı alan, farklı sektör ve iş kolunda çalışıyoruz. İnşaat, maden, perakende, ofisler bunlardan en bilinen alan ve sektörler.",
+            "Peki, klasik iş güvenliği eğitimlerinin dışında, çalışanlarınız için yapılan işlere özgü eğitimler planlamak istemez miydiniz?"
+        ]
     },
     {
-        "path": "",
-        "title": "Ergonomi Eğitimi"
+        "path": "/ergonomi-egitimi",
+        "title": "Ergonomi Eğitimi",
+        "coverImage" : "hijyen-min.jpg",
+        "subImage"   : "ergonomi-egitim.svg",
+        "heading": "Ergonomi Eğitimi",
+        "texts":[
+            "Ergonomi kavramı, önemi ve uygulamaları ile ilgili bilgi sahibi olmak Ergonomik risk değerlendirme yöntemlerini işletmelerinde uygulayabilir hale gelmek İş sağlığı ve güvenliği kanunu ve ilgili yönetmelikler çerçevesinde ergonomi açısından işyeri ve çalışma koşulları dizaynı hakkında bilgi sahibi olmak.",
+            "<strong>Konu Başlıkları:</strong>",
+            "Çalışma Hayatında Ergonomi Ve Ergonomiye İlişkin Kavramlar",
+            "İşyerinde Ergonomik Risk Unsurları",
+            "Elle Taşıma Kaldırma Ve Mevzuat",
+            "Fiziksel Risk Etmenleri",
+            "Ergonomik Risk Değerlendirme Yöntemleri Ve Uygulaması",
+            "Reba Yöntemi Uygulaması",
+            "Rula Yöntemi Uygulaması",
+            "Nıosh Kaldırma Eşitliği"
+        ]
     },
     {
-        "path": "",
-        "title": "Liderlik Eğitimi"
+        "path": "/liderlik-egitimi",
+        "title": "Liderlik Eğitimi",
+        "coverImage" : "hijyen-min.jpg",
+        "subImage"   : "liderlik_egitim.svg",
+        "heading": "Liderlik Eğitimi",
+        "texts":[
+            "Günümüzde kurumların sürdürülebilir başarısı için yönetim kadrolarının sahip olduğu yetkinlikler ve liderlik becerileri en önemli unsur olarak gözükmektedir. Bugün yeni ve sürekli gelişen teknolojiler ile değişimin çok hızlı olması, rekabetin artması gibi nedenlerle kendini ve ekibini iyi tanıyan, ekip ve iş yönetiminde yüksek performans ve başarılı sonuçlara odaklanan, yönetimsel kararlarda etkin ve başarılı yöneticilere ihtiyaç hızla artmaktadır.",
+            "Bu eğitim programı, yöneticilere ve yönetici adaylarına, günümüz etkin yönetim tekniklerini ve liderlik yaklaşımının aktararak, uygulama ve vaka analizlerine dayanan çalışmalarla katılımcıların yöneticilik ve liderlik becerilerini geliştirmeyi hedefler. Ayrıca kurumun başarısına ve stratejisine katkıda bulunan, ekibinin potansiyelini ortaya çıkartabilen ve performansını geliştirebilen, kendinin ve ekibinin gelişimi için katkı sağlayabilen profesyoneller olarak vizyon kazandırmayı hedeflemektedir.",
+            "<strong>Eğitim aşağıdaki konularda katılımcılara derinlemesine bilgi ve yetkinlik kazandırmayı amaçlar;</strong>",
+            "Kendini & Değerlerini Tanıyarak Bireysel Liderlik Kapasitesini Keşfetme & Geliştirme,",
+            "Ekip Performansının Yönetimi & Takibi için Ekibe Liderdik Becerilerinin Gelişimi,",
+            "Ekibinin Potansiyelini Ortaya Çıkaratabilmek ve Geliştirebilmek için Yaklaşımının Gelişimi,",
+            "İşini Etkin Yönetebilmesi için Gereli olan Stratejik Bakış Açısı ve Problem Çözme Yetkinliklerini Gelişimi,"
+
+        ]
     },
     {
-        "path": "",
-        "title": "Etkili İletişim Eğitimleri"
+        "path": "/etkili-iletişim-egitimleri",
+        "title": "Etkili İletişim Eğitimleri",
+        "coverImage" : "hijyen-min.jpg",
+        "subImage"   : "etkili_iletisim.svg",
+        "heading": "Etkili İletişim Eğitimleri",
+        "texts":[
+            "Etkili İletişim Teknikleri Eğitimi, etkili iletişimi sağlamak için uygulanması gereken teknikleri ve dikkat edilmesi gereken noktaları öğreten bir ders programıdır. Etkili İletişim Teknikleri Eğitimi sayesinde bireyler, insan ilişkilerinde nasıl daha etkili iletişim kuracaklarını öğrenmektedir. Etkili iletişim tekniklerini öğrenmek, kişinin iş ve günlük hayatına doğrudan avantaj sağlayan bir hamle olacaktır.",
+            "İnsanlara bir konuyu anlatırken ya dikkatleri dağılırsa? Anlatımım sırasında başka şeyler ile uğraşmaya başlarlarsa? Anlatım şeklimi çok sıradan bulurlarsa? Aklınızda dolaşan bu sorulara “Dur!” diyoruz. Siz de Etkili İletişim Teknikleri Eğitimi’ne katılın. Profesyonel bir konuşmacı ve dinleyici olmanın keyfini çıkarın!"
+
+        ]
     },
     {
-        "path": "",
-        "title": "Kriz Yönetimi ve Afad Psikolojisi Eğitimi"
+        "path": "/kriz-yonetimi-afed-psikolojisi-egitimi",
+        "title": "Kriz Yönetimi ve Afad Psikolojisi Eğitimi",
+        "coverImage" : "hijyen-min.jpg",
+        "subImage"   : "kriz-yonetimi.svg",
+        "heading": "Kriz Yönetimi ve Afad Psikolojisi Eğitimi",
+        "texts":[
+            "Kriz Yönetimi Eğitimi, bir şirketin yaşadığı krizleri nasıl çözüme kavuşturabileceği ile ilgili kapsamlı bilgi almayı sağlayan bir online eğitim programıdır.",
+            "Kriz Yönetimi Eğitimi sonunda katılımcılar iş hayatında karşılaştıkları krizi nasıl çözüme kavuşturabilecekleri konusunda bilinç kazanır. Bu sayede iş dünyasında yaşanan krizler daha büyük sorunlara yol açmadan çözülebilir ve marka itibarı ile kişisel imaj korunabilir."
+
+        ]
     },
     {
-        "path": "",
-        "title": "Ebevenler İçin İlk Yardım Eğitimi"
+        "path": "/ebevenler-icin-ilk-yardim-egitimi",
+        "title": "Ebevenler İçin İlk Yardım Eğitimi",
+        "coverImage" : "hijyen-min.jpg",
+        "subImage"   : "ilk-yardim.svg",
+        "heading": "Ebevenler İçin İlk Yardım Eğitimi",
+        "texts":[
+            "Temel ilkyardım bilgisi her insanın sahip olması gereken bilgilerden biridir. Trafikte karşılaştığımız bir kazada, toplu taşımada tanık olduğumuz bir yaralanma veya hastalıkta, işyerlerimizde ve en önemlisi kendi evimizde temel bir ilk yardım bilgisi hayat kurtarabilir. ",
+            "Özellikle çocuklarımız için..",
+            "Ebeveyn olarak çocuklarımızı her an korumak istiyoruz. Fakat bu her zaman mümkün değildir. Özellikle küçük çocuklarda, boğaza madde takılması, el-parmak sıkışmaları, yanıklar, epilepsi- sara krizleri gibi önemli sağlık sorunlarıyla karşı karşıya kalabiliyoruz.",
+            "Ebeveynlerin soğukkanlı, bilgili ve bilinçli olması bu noktada önemlidir.",
+            "Ebeveynler için ilkyardım eğitimlerinde çocuklarda ve genel olarak karşılaşılan sağlık sorunlarına yönelik bilgi, beceri kazanması, kriz anını yönetebilmesi hakkında konular anlatılır. Alanında uzman eğitmenler tarafından verilen eğitimleri Odeo Akademi olarak size ulaştırıyoruz.",
+            "Çocuklarınızın evde yaşadığı sağlık sorunlarında hızlı müdahale etmeniz hayat kurtarıcı olabilir.",
+            "Çocuklarınız için eğitimde buluşalım."
+
+        ]
     }
 ]
